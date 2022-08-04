@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-image: linear-gradient(360deg, #0B131F -0.07%, #0B131F 10.08%, rgba(60, 60, 60, 0.8)), url(../TJDaura-img/TJRectangle19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+.recta {
+    background-image: url(../TJDaura-img/TJRectangle19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inside p {
+    margin-bottom: 0 !important;
+    line-height: 0.9;
+}
+
+.for-color {
+    color: #B91869;   
+}
+
+.justify {
+    text-align: justify;
+}
+
+.off {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #B91869;
+    align-items: center;
+    min-height: 52vh;
+    max-width: 30px;
+    padding: 4px;
+}
+
+.off-tw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-two {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.to-cut {
+    height: 50vh;
+}
+
+.for-d-side {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.for-line h2, .d-slide h5{
+    line-height: 0.7;
+}
+
+.for-line {
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.for-link {
+    background: #45CB9C;
+    float: right;
+}
+
+.d-slide {
+    background: gray;
+    min-height: 23vh;
+}
+
+.dd-slid {
+    background: #344155;
+    min-height: 23vh;
+}
+
+.reduce {
+    width: 23px;
+    height: 38px;
+}
+
+.mic-reduce {
+    width: 20px;
+    height: 29px;
+}
+
+.re-duce {
+    width: 100px;
+    height: 40px;
+}
+
+.ree-duce {
+    width: 35px;
+    height: 32px;
+}
+
+.shadow {
+    text-shadow: 3px 3px 5px white;
+    color: #344155;
+}
+
+.for-pink {
+    background: #B91869;
+}
+
+.flexo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.text-size {
+    font-size: 12px !important;
+}
+
+.text-color {
+    color: #fff;
+}
+
+#contact-section {
+    background: linear-gradient(45deg, #329472 -0.07%, #45CB9C 100.08%);
+}
+
+.progress {
+    background-color: rgba(245, 245, 245, 0.562) !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background: rgba(245, 245, 245, 0.295);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+
+textarea {
+    width: 100%;
+    padding: 20px 20px 0;
+}
+
+.send-form a:hover {
+    color: #45CB9C;
+    background-color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.service-content a:hover {
+    color: #ff0080;
+}
+
+@media (max-width: 769px) {
+    .ps-cut {
+        padding-left: 0 !important;
+    }
+
+    .for-link {
+        float: none;
+    }
+}
+
+@media (max-width: 426px) {
+    .for-mag {
+        margin-left: 0 !important;
+    }
+
+    .recta {
+        min-height: 50vh;
+        order: 2;
+    }
+
+    .recta-tw {
+        order: 1;
+    }
+
+    .for-d-side, .off-two {
+        display: none;
+    } 
+}
