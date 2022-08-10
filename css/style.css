@@ -20,11 +20,6 @@
     background-position: center;
 }
 
-.inside p {
-    margin-bottom: 0 !important;
-    line-height: 0.9;
-}
-
 .for-color {
     color: #B91869;   
 }
@@ -85,12 +80,12 @@
 
 .d-slide {
     background: gray;
-    min-height: 23vh;
+    min-height: 15vh;
 }
 
 .dd-slid {
     background: #344155;
-    min-height: 23vh;
+    min-height: 20vh;
 }
 
 .reduce {
